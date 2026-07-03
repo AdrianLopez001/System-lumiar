@@ -1,0 +1,982 @@
+{
+  "profiles": [
+    {
+      "id": "usr-corp-1",
+      "username": "@nordestao_oficial",
+      "nome_completo": "Supermercado Nordestão",
+      "profileType": "company",
+      "url_avatar": "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Supermercados Nordestão - Gerando impacto social e apoiando o desenvolvimento do RN. Plano ESG Ouro Ativo.",
+      "metricas": {
+        "seguidores": 5420,
+        "seguindo": 150
+      },
+      "subscriptionStatus": "active",
+      "subscriptionPlan": "mensal_ouro",
+      "cnpj": "08323491000102"
+    },
+    {
+      "id": "usr-creative-1",
+      "username": "@marina_artes",
+      "nome_completo": "Marina Vasconcelos",
+      "profileType": "volunteer",
+      "url_avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Artista plástica e arte-educadora. Acredito que a arte transforma vidas e cura corações. 🎨✨",
+      "metricas": {
+        "seguidores": 1280,
+        "seguindo": 432
+      }
+    },
+    {
+      "id": "usr-engaged-1",
+      "username": "@felipe_social",
+      "nome_completo": "Felipe Albuquerque",
+      "profileType": "donor",
+      "url_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Doando tempo e recursos no RN. Ativista social em Natal, focado em combate à fome e desigualdade.",
+      "metricas": {
+        "seguidores": 2450,
+        "seguindo": 890
+      }
+    },
+    {
+      "id": "usr-brand-1",
+      "username": "@ong_aguaviva",
+      "nome_completo": "Instituto Água Viva RN",
+      "profileType": "institution",
+      "url_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "ONG dedicada ao acesso à água e saneamento em comunidades do sertão do RN. 🏛️💧",
+      "metricas": {
+        "seguidores": 8930,
+        "seguindo": 120
+      }
+    },
+    {
+      "id": "usr-casual-1",
+      "username": "@pedro_rn",
+      "nome_completo": "Pedro Lima",
+      "profileType": "volunteer",
+      "url_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Apenas um cidadão querendo ajudar quando sobra um tempinho nos fins de semana.",
+      "metricas": {
+        "seguidores": 340,
+        "seguindo": 560
+      }
+    },
+    {
+      "id": "usr-corp-2",
+      "username": "@miramar_hotel",
+      "nome_completo": "Hotel Miramar Ponta Negra",
+      "profileType": "company",
+      "url_avatar": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Acolhimento e responsabilidade socioambiental. Apoiando abrigos do RN com nosso selo ESG Prata.",
+      "metricas": {
+        "seguidores": 3210,
+        "seguindo": 90
+      },
+      "subscriptionStatus": "active",
+      "subscriptionPlan": "mensal_prata",
+      "cnpj": "12456789000109"
+    },
+    {
+      "id": "usr-creative-2",
+      "username": "@thiago_click",
+      "nome_completo": "Thiago Martins",
+      "profileType": "volunteer",
+      "url_avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Fotógrafo profissional. Contando histórias reais de impacto social através de lentes.",
+      "metricas": {
+        "seguidores": 4500,
+        "seguindo": 870
+      }
+    },
+    {
+      "id": "usr-engaged-2",
+      "username": "@camila_eco",
+      "nome_completo": "Camila Nogueira",
+      "profileType": "volunteer",
+      "url_avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Bióloga. Atuando em mutirões de plantio urbano e limpeza de praias no RN. 🌳🌊",
+      "metricas": {
+        "seguidores": 1820,
+        "seguindo": 750
+      }
+    },
+    {
+      "id": "usr-brand-2",
+      "username": "@caofeliz_natal",
+      "nome_completo": "Abrigo Cão Feliz Natal",
+      "profileType": "institution",
+      "url_avatar": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Resgatamos e reabilitamos animais em situação de rua em Natal e região metropolitana. 🐾❤️",
+      "metricas": {
+        "seguidores": 15400,
+        "seguindo": 200
+      }
+    },
+    {
+      "id": "usr-casual-2",
+      "username": "@clara_m",
+      "nome_completo": "Clara Medeiros",
+      "profileType": "donor",
+      "url_avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Mãe, servidora pública. Apoiadora de causas voltadas à educação infantil.",
+      "metricas": {
+        "seguidores": 410,
+        "seguindo": 380
+      }
+    },
+    {
+      "id": "usr-corp-3",
+      "username": "@rn_cabo",
+      "nome_completo": "RN Cabos e Telecom",
+      "profileType": "company",
+      "url_avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Conectando o RN. Parceiro digital do terceiro setor. Assinante ESG Platina.",
+      "metricas": {
+        "seguidores": 6800,
+        "seguindo": 45
+      },
+      "subscriptionStatus": "active",
+      "subscriptionPlan": "mensal_platina",
+      "cnpj": "98765432000109"
+    },
+    {
+      "id": "usr-creative-3",
+      "username": "@duda_musica",
+      "nome_completo": "Maria Eduarda Dias",
+      "profileType": "volunteer",
+      "url_avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Professora de música. Acreditando no poder do ritmo para incluir e integrar jovens. 🎵🎸",
+      "metricas": {
+        "seguidores": 920,
+        "seguindo": 550
+      }
+    },
+    {
+      "id": "usr-engaged-3",
+      "username": "@marcos_rural",
+      "nome_completo": "Marcos Silveira",
+      "profileType": "volunteer",
+      "url_avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Agrônomo voluntário em hortas comunitárias e agricultura familiar sustentável no RN.",
+      "metricas": {
+        "seguidores": 1150,
+        "seguindo": 940
+      }
+    },
+    {
+      "id": "usr-brand-3",
+      "username": "@maos_que_ajudam",
+      "nome_completo": "ONG Mãos que Ajudam Seridó",
+      "profileType": "institution",
+      "url_avatar": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Apoio a famílias sertanejas com cestas básicas, oficinas produtivas e reforço escolar. 🤝",
+      "metricas": {
+        "seguidores": 7430,
+        "seguindo": 80
+      }
+    },
+    {
+      "id": "usr-casual-3",
+      "username": "@lucas_rn",
+      "nome_completo": "Lucas Pinheiro",
+      "profileType": "donor",
+      "url_avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200&h=200",
+      "bio": "Estudante da UFRN, doador pontual de roupas e organizador de trocas sustentáveis.",
+      "metricas": {
+        "seguidores": 610,
+        "seguindo": 720
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id_post": "post-s-1",
+      "id_autor": "usr-brand-1",
+      "authorName": "Instituto Água Viva RN",
+      "authorUsername": "@ong_aguaviva",
+      "authorType": "institution",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "💧 Mais um poço artesiano instalado com sucesso em uma comunidade rural do Seridó! Com as doações dos nossos parceiros B2B, garantimos água potável para 45 famílias nesta semana. Acesse nosso painel de transparência de despesas e confira os comprovantes e notas de gastos lançados em tempo real! #TransparênciaESG #PROVERN",
+      "url_midia": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 20 min",
+      "metricas": {
+        "curtidas": 154,
+        "comentarios": 3,
+        "compartilhamentos": 18
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-corp-1",
+          "authorName": "Supermercado Nordestão",
+          "text": "Orgulho em fazer parte desse impacto positivo no sertão! Nossas arrecadações mensais estão gerando frutos reais. 💛"
+        },
+        {
+          "author": "usr-engaged-1",
+          "authorName": "Felipe Albuquerque",
+          "text": "Parabéns ao instituto! A transparência nas despesas realmente ajuda a confiar e doar ainda mais."
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-2",
+      "id_autor": "usr-corp-1",
+      "authorName": "Supermercado Nordestão",
+      "authorUsername": "@nordestao_oficial",
+      "authorType": "company",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "🏪 Parceria de impacto! Anunciamos hoje a renovação da nossa assinatura ESG Ouro na PROVE RN. Com isso, apoiamos recorrentemente 5 ONGs e garantimos 400 refeições por mês no Sopão Solidário. O selo ESG já está ativo em nosso perfil e nos canais digitais. Faça como o Nordestão e apoie causas locais!",
+      "data_publicacao": "há 1 hora",
+      "metricas": {
+        "curtidas": 98,
+        "comentarios": 2,
+        "compartilhamentos": 5
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-brand-3",
+          "authorName": "ONG Mãos que Ajudam Seridó",
+          "text": "Obrigado, Nordestão! A constância das doações recorrentes é o que mantém nossas portas abertas todo mês. 🙏"
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-3",
+      "id_autor": "usr-creative-1",
+      "authorName": "Marina Vasconcelos",
+      "authorUsername": "@marina_artes",
+      "authorType": "volunteer",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "🎨 Registros da oficina de pintura e colagem com as crianças do abrigo. Ver cada sorriso expressando sua criatividade na tela me dá forças de continuar. O voluntariado não é sobre doar o que sobra, mas sobre doar amor e atenção! #Voluntariado #ArteEducação",
+      "url_midia": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 3 horas",
+      "metricas": {
+        "curtidas": 210,
+        "comentarios": 4,
+        "compartilhamentos": 12
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-casual-1",
+          "authorName": "Pedro Lima",
+          "text": "Trabalho lindo, Marina! Quero muito me candidatar e ajudar na próxima oficina."
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-4",
+      "id_autor": "usr-brand-2",
+      "authorName": "Abrigo Cão Feliz Natal",
+      "authorUsername": "@caofeliz_natal",
+      "authorType": "institution",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "🐶 Hoje o dia foi de mutirão de vacinação e carinho nos nossos resgatados. Tivemos a visita de 12 voluntários que ajudaram a higienizar o espaço e passear com os cães. Agradecimento especial ao Hotel Miramar pela doação de ração e medicamentos. #ProteçãoAnimal #NatalRN",
+      "url_midia": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 5 horas",
+      "metricas": {
+        "curtidas": 340,
+        "comentarios": 5,
+        "compartilhamentos": 45
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-corp-2",
+          "authorName": "Hotel Miramar Ponta Negra",
+          "text": "É uma honra apoiar o Abrigo Cão Feliz! A causa animal é uma das nossas maiores prioridades ESG. 🐾"
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-5",
+      "id_autor": "usr-engaged-1",
+      "authorName": "Felipe Albuquerque",
+      "authorUsername": "@felipe_social",
+      "authorType": "donor",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "🍲 Utilizei o fluxo de Apoio Expresso no meu painel e destinei R$ 150 para o fundo geral da PROVE! Muito prático doar diretamente por lá e ver o andamento transparente de todas as contas do estado. Convido todos a doarem R$ 10 ou R$ 20. Juntos fazemos a diferença!",
+      "data_publicacao": "há 8 horas",
+      "metricas": {
+        "curtidas": 75,
+        "comentarios": 1,
+        "compartilhamentos": 2
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-6",
+      "id_autor": "usr-engaged-3",
+      "authorName": "Marcos Silveira",
+      "authorUsername": "@marcos_rural",
+      "authorType": "volunteer",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "🌱 Nossa horta comunitária na Zona Norte de Natal está a todo vapor! Hoje colhemos 50kg de hortaliças sem agrotóxicos que alimentarão famílias cadastradas na associação. Obrigado aos voluntários pelo trabalho árduo na terra! #HortaComunitária #Sustentabilidade",
+      "url_midia": "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 1 dia",
+      "metricas": {
+        "curtidas": 185,
+        "comentarios": 3,
+        "compartilhamentos": 14
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-casual-3",
+          "authorName": "Lucas Pinheiro",
+          "text": "Sensacional! Trabalho de base super importante."
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-7",
+      "id_autor": "usr-corp-3",
+      "authorName": "RN Cabos e Telecom",
+      "authorUsername": "@rn_cabo",
+      "authorType": "company",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "💻 Conectividade de impacto! Finalizamos hoje a instalação de internet de fibra óptica de alta velocidade e doação de 5 computadores recondicionados no centro comunitário de apoio escolar. A inclusão digital abre portas para o mercado corporativo!",
+      "data_publicacao": "há 1 dia",
+      "metricas": {
+        "curtidas": 125,
+        "comentarios": 2,
+        "compartilhamentos": 9
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-brand-3",
+          "authorName": "ONG Mãos que Ajudam Seridó",
+          "text": "Esses computadores farão toda a diferença nos cursos de programação e alfabetização digital para nossos jovens! Gratidão!"
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-8",
+      "id_autor": "usr-creative-3",
+      "authorName": "Maria Eduarda Dias",
+      "authorUsername": "@duda_musica",
+      "authorType": "volunteer",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "🎼 Nossa primeira apresentação de flauta doce e percussão com o grupo juvenil foi emocionante. A música conecta mentes e estrutura a disciplina social dos nossos jovens. Obrigado ao projeto pelo convite e acolhida! #MúsicaSocial #Inclusão",
+      "url_midia": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 2 dias",
+      "metricas": {
+        "curtidas": 94,
+        "comentarios": 0,
+        "compartilhamentos": 3
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-9",
+      "id_autor": "usr-brand-3",
+      "authorName": "ONG Mãos que Ajudam Seridó",
+      "authorUsername": "@maos_que_ajudam",
+      "authorType": "institution",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "🥖 Oficina de panificação comunitária concluída! Hoje qualificamos 12 mães solo para a produção de pães caseiros e cookies saudáveis para geração de renda familiar imediata. Nosso objetivo é promover a emancipação econômica sustentável. #EmancipaçãoSocial #Seridó",
+      "url_midia": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 2 dias",
+      "metricas": {
+        "curtidas": 150,
+        "comentarios": 2,
+        "compartilhamentos": 16
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-casual-2",
+          "authorName": "Clara Medeiros",
+          "text": "Projeto maravilhoso! Gostaria de doar insumos e farinha para a próxima turma. Como faço?"
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-10",
+      "id_autor": "usr-corp-2",
+      "authorName": "Hotel Miramar Ponta Negra",
+      "authorUsername": "@miramar_hotel",
+      "authorType": "company",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "🌊 Preservação das nossas belezas! Organizamos neste sábado uma caminhada ecológica e mutirão de limpeza na praia de Ponta Negra com nossos funcionários e hóspedes voluntários. Coletamos 120kg de resíduos plásticos da areia. Apoie o RN!",
+      "data_publicacao": "há 3 dias",
+      "metricas": {
+        "curtidas": 280,
+        "comentarios": 4,
+        "compartilhamentos": 20
+      },
+      "comentarios_mock": [
+        {
+          "author": "usr-engaged-2",
+          "authorName": "Camila Nogueira",
+          "text": "Ação fantástica! Estarei junto no próximo mutirão de limpeza com certeza."
+        }
+      ]
+    },
+    {
+      "id_post": "post-s-11",
+      "id_autor": "usr-engaged-2",
+      "authorName": "Camila Nogueira",
+      "authorUsername": "@camila_eco",
+      "authorType": "volunteer",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "Iniciamos a triagem dos livros que recebemos ontem! Fiquei impressionada com a quantidade e qualidade das doações. A leitura abre novos horizons e mal posso esperar para colocar estes livros na prateleira da biblioteca reconstruída! Obrigado!",
+      "data_publicacao": "há 1 hora",
+      "metricas": {
+        "curtidas": 35,
+        "comentarios": 4,
+        "compartilhamentos": 5
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-12",
+      "id_autor": "usr-brand-3",
+      "authorName": "ONG Mãos que Ajudam Seridó",
+      "authorUsername": "@maos_que_ajudam",
+      "authorType": "institution",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "Que dia incrível! Concluímos a entrega de 45 kits de enxoval para mães solo na comunidade. Ver a emoção no rosto de cada mãe nos dá a certeza de que estamos no caminho certo. Obrigado aos nossos voluntários costureiros!",
+      "url_midia": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 3 horas",
+      "metricas": {
+        "curtidas": 112,
+        "comentarios": 15,
+        "compartilhamentos": 22
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-13",
+      "id_autor": "usr-casual-1",
+      "authorName": "Pedro Lima",
+      "authorUsername": "@pedro_rn",
+      "authorType": "volunteer",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "Acabei de dar o deploy no novo site do Instituto Água Viva! Um trabalho feito com muito carinho de forma 100% voluntária. Espero que a plataforma ajude o instituto a conseguir ainda mais parceiros e transparência em suas doações. 💻✨",
+      "data_publicacao": "há 8 horas",
+      "metricas": {
+        "curtidas": 85,
+        "comentarios": 24,
+        "compartilhamentos": 10
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-14",
+      "id_autor": "usr-corp-1",
+      "authorName": "Supermercado Nordestão",
+      "authorUsername": "@nordestao_oficial",
+      "authorType": "company",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "Nosso time participou de uma gincana interna e arrecadou mais de 500kg de alimentos não perecíveis! Hoje fizemos a entrega na sede do Sopão Solidário. O voluntariado corporativo é parte da nossa cultura de ESG no RN! 🍎🤝",
+      "url_midia": "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 14 horas",
+      "metricas": {
+        "curtidas": 195,
+        "comentarios": 31,
+        "compartilhamentos": 15
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-15",
+      "id_autor": "usr-creative-1",
+      "authorName": "Marina Vasconcelos",
+      "authorUsername": "@marina_artes",
+      "authorType": "volunteer",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "Muito gratificante participar do atendimento de apoio jurídico em Macaíba. Ajudamos a resolver 15 casos de regularização de documentos e registro civil hoje. Justiça social começa com dignidade básica e cidadania!",
+      "data_publicacao": "há 20 horas",
+      "metricas": {
+        "curtidas": 140,
+        "comentarios": 12,
+        "compartilhamentos": 8
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-16",
+      "id_autor": "usr-brand-1",
+      "authorName": "Instituto Água Viva RN",
+      "authorUsername": "@ong_aguaviva",
+      "authorType": "institution",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "Agradecemos de coração a todos os profissionais de saúde que voluntariaram seu tempo no mutirão das Rocas neste sábado. Foram mais de 80 atendimentos pediátricos realizados! Prevenção é vida e amor ao próximo.",
+      "url_midia": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 1 dia",
+      "metricas": {
+        "curtidas": 220,
+        "comentarios": 48,
+        "compartilhamentos": 35
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-17",
+      "id_autor": "usr-engaged-2",
+      "authorName": "Camila Nogueira",
+      "authorUsername": "@camila_eco",
+      "authorType": "volunteer",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "Tarde fantástica plantando mudas nas Dunas de Genipabu! O ar fresco, o suor na testa e a sensação de estar devolvendo algo para a natureza do nosso maravilhoso RN. Vamos preservar nossas belezas naturais! 🌳🌊",
+      "data_publicacao": "há 1 dia",
+      "metricas": {
+        "curtidas": 95,
+        "comentarios": 8,
+        "compartilhamentos": 14
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-18",
+      "id_autor": "usr-brand-3",
+      "authorName": "ONG Mãos que Ajudam Seridó",
+      "authorUsername": "@maos_que_ajudam",
+      "authorType": "institution",
+      "tipo_conteudo": "image",
+      "texto_conteudo": "Nossa oficina de teatro de sombras foi um sucesso total entre os jovens da periferia de Mossoró! A arte nos ensina a olhar para dentro e criar novas realidades. Agradecemos à professora Sandra pela condução impecável.",
+      "url_midia": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&q=80&w=800",
+      "data_publicacao": "há 2 dias",
+      "metricas": {
+        "curtidas": 80,
+        "comentarios": 11,
+        "compartilhamentos": 5
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-19",
+      "id_autor": "usr-engaged-1",
+      "authorName": "Felipe Albuquerque",
+      "authorUsername": "@felipe_social",
+      "authorType": "donor",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "Fiz um PIX para a campanha \"A Chuva Levou Nossos Livros\". É de partir o coração ver o espaço das crianças destruído, mas sei que a força da nossa comunidade vai reconstruir um lugar ainda mais bonito! Colabore você também!",
+      "data_publicacao": "há 2 dias",
+      "metricas": {
+        "curtidas": 67,
+        "comentarios": 14,
+        "compartilhamentos": 9
+      },
+      "comentarios_mock": []
+    },
+    {
+      "id_post": "post-s-20",
+      "id_autor": "usr-creative-2",
+      "authorName": "Thiago Martins",
+      "authorUsername": "@thiago_click",
+      "authorType": "volunteer",
+      "tipo_conteudo": "text",
+      "texto_conteudo": "Tivemos a visita de dois veterinários parceiros no abrigo hoje. Todos os cachorrinhos e gatinhos passaram por exames preventivos de verminoses e foram vacinados. Eles estão prontos para receber uma família cheia de amor! Adote!",
+      "data_publicacao": "há 3 dias",
+      "metricas": {
+        "curtidas": 180,
+        "comentarios": 29,
+        "compartilhamentos": 18
+      },
+      "comentarios_mock": []
+    }
+  ],
+  "vagas": [
+    {
+      "id": "job-11",
+      "institutionId": "inst-1",
+      "title": "Educador Social de Informática",
+      "description": "Ensine conceitos básicos de informática e navegação na internet para crianças e jovens atendidos por nossos projetos sociais.",
+      "category": "Educação",
+      "city": "Natal",
+      "neighborhood": "Tirol",
+      "modality": "Presencial",
+      "causes": "Inclusão digital, educação de jovens, capacitação profissional.",
+      "postedAt": "2026-06-27T10:00:00.000Z",
+      "startDate": "2026-07-06T10:00:00.000Z",
+      "endDate": "2026-08-14T10:00:00.000Z",
+      "requirementsEssential": ["Domínio básico de computação", "Boa comunicação", "Paciência para lecionar"],
+      "requirementsOptional": ["Experiência anterior com ensino", "Conhecimento em informática para escritório"],
+      "contactName": "Carlos Pereira",
+      "contactEmail": "carlos@aguaviva.org",
+      "contactPhone": "(84) 3232-1111",
+      "status": "open"
+    },
+    {
+      "id": "job-12",
+      "institutionId": "inst-3",
+      "title": "Apoio em Eventos de Adoção de Animais",
+      "description": "Buscamos voluntários para apoiar a logística, transporte e divulgação dos cães e gatos em nossas feiras e eventos de adoção aos sábados.",
+      "category": "Animais",
+      "city": "Parnamirim",
+      "neighborhood": "Emaús",
+      "modality": "Presencial",
+      "causes": "Proteção animal, adoção responsável, engajamento comunitário.",
+      "postedAt": "2026-06-29T10:00:00.000Z",
+      "startDate": "2026-07-05T10:00:00.000Z",
+      "endDate": "2026-07-30T10:00:00.000Z",
+      "requirementsEssential": ["Gostar de animais domésticos", "Boa comunicação para lidar com o público"],
+      "requirementsOptional": ["Experiência prévia em feiras de adoção", "Habilidades de fotografia básica"],
+      "contactName": "Rodrigo Almeida",
+      "contactEmail": "rodrigo@resgatevivoong.org",
+      "contactPhone": "(84) 3444-5555",
+      "status": "open"
+    },
+    {
+      "id": "job-13",
+      "institutionId": "inst-2",
+      "title": "Auxiliar de Triagem de Agasalhos",
+      "description": "Participe do nosso comitê de triagem para separar, lavar e dobrar cobertores e agasalhos arrecadados na campanha de inverno antes da distribuição.",
+      "category": "Outro",
+      "city": "Natal",
+      "neighborhood": "Alecrim",
+      "modality": "Presencial",
+      "causes": "Assistência a moradores de rua, ação solidária contra o frio.",
+      "postedAt": "2026-06-26T10:00:00.000Z",
+      "startDate": "2026-07-02T10:00:00.000Z",
+      "endDate": "2026-07-15T10:00:00.000Z",
+      "requirementsEssential": ["Disponibilidade às terças ou quintas à tarde", "Organização e capricho"],
+      "requirementsOptional": ["Trabalho em equipe no terceiro setor"],
+      "contactName": "Ana Paula Rocha",
+      "contactEmail": "ana@maosqueajudam.org",
+      "contactPhone": "(84) 3333-2222",
+      "status": "open"
+    },
+    {
+      "id": "job-14",
+      "institutionId": "inst-4",
+      "title": "Criador de Conteúdo para Redes Sociais",
+      "description": "Escreva textos curtos, prepare postagens e stories para nossa página social para divulgar as atividades culturais que realizamos com os jovens.",
+      "category": "Cultura",
+      "city": "Mossoró",
+      "neighborhood": "Online",
+      "modality": "À Distância",
+      "causes": "Arte e cultura, comunicação para impacto social, marketing digital.",
+      "postedAt": "2026-06-28T10:00:00.000Z",
+      "startDate": "2026-07-10T10:00:00.000Z",
+      "endDate": "2026-09-28T10:00:00.000Z",
+      "requirementsEssential": ["Habilidade em redação digital", "Familiaridade com Instagram e TikTok"],
+      "requirementsOptional": ["Conhecimento básico em Canva ou Photoshop"],
+      "contactName": "Sandra Reis",
+      "contactEmail": "sandra@artenaperiferiaong.org",
+      "contactPhone": "(84) 3555-6666",
+      "status": "open"
+    },
+    {
+      "id": "job-15",
+      "institutionId": "inst-5",
+      "title": "Voluntário de Recepção no Mutirão de Saúde",
+      "description": "Apoie nosso mutirão mensal de saúde preenchendo as fichas dos pacientes e ajudando a orientar as filas e prioridades de atendimento.",
+      "category": "Saúde",
+      "city": "Natal",
+      "neighborhood": "Rocas",
+      "modality": "Presencial",
+      "causes": "Saúde preventiva, cidadania, inclusão social nas comunidades.",
+      "postedAt": "2026-06-25T10:00:00.000Z",
+      "startDate": "2026-07-08T10:00:00.000Z",
+      "endDate": "2026-07-20T10:00:00.000Z",
+      "requirementsEssential": ["Organização e simpatia", "Disponibilidade aos sábados"],
+      "requirementsOptional": ["Experiência anterior com atendimento ao público"],
+      "contactName": "Dr. Marcos Vieira",
+      "contactEmail": "marcos@saudeparatodos.org",
+      "contactPhone": "(84) 3666-7777",
+      "status": "open"
+    },
+    {
+      "id": "job-16",
+      "institutionId": "inst-1",
+      "title": "Professor Voluntário de Matemática / Reforço",
+      "description": "Ofereça aulas de reforço escolar de matemática básica para alunos do ensino fundamental I em situação de atraso de aprendizado.",
+      "category": "Educação",
+      "city": "Natal",
+      "neighborhood": "Lagoa Nova",
+      "modality": "Presencial",
+      "causes": "Reforço escolar, incentivo aos estudos, erradicação da evasão escolar.",
+      "postedAt": "2026-06-24T10:00:00.000Z",
+      "startDate": "2026-07-04T10:00:00.000Z",
+      "endDate": "2026-09-02T10:00:00.000Z",
+      "requirementsEssential": ["Conhecimento sólido de matemática básica", "Boa didática infantil"],
+      "requirementsOptional": ["Licenciatura em pedagogia ou matemática em curso"],
+      "contactName": "Carlos Pereira",
+      "contactEmail": "carlos@aguaviva.org",
+      "contactPhone": "(84) 3232-1111",
+      "status": "open"
+    },
+    {
+      "id": "job-17",
+      "institutionId": "inst-2",
+      "title": "Designer Gráfico para Flyers de Eventos",
+      "description": "Crie a identidade e materiais de divulgação digitais para nossos próximos bazares solidários e arrecadações de alimentos.",
+      "category": "Cultura",
+      "city": "Caicó",
+      "neighborhood": "Online",
+      "modality": "À Distância",
+      "causes": "Design para o bem, comunicação visual, bazar solidário.",
+      "postedAt": "2026-06-23T10:00:00.000Z",
+      "startDate": "2026-07-03T10:00:00.000Z",
+      "endDate": "2026-08-17T10:00:00.000Z",
+      "requirementsEssential": ["Domínio de ferramentas de design", "Envio de portfólio simples"],
+      "requirementsOptional": ["Experiência de trabalho em ONGs"],
+      "contactName": "Ana Paula Rocha",
+      "contactEmail": "ana@maosqueajudam.org",
+      "contactPhone": "(84) 3333-2222",
+      "status": "open"
+    },
+    {
+      "id": "job-18",
+      "institutionId": "inst-2",
+      "title": "Organizador de Horta Urbana",
+      "description": "Apoie o plantio e o cuidado diário de hortas comunitárias urbanas focadas em alimentar famílias vulneráveis no bairro Alecrim.",
+      "category": "Meio Ambiente",
+      "city": "Natal",
+      "neighborhood": "Alecrim",
+      "modality": "Presencial",
+      "causes": "Sustentabilidade urbana, soberania alimentar, cultivo comunitário.",
+      "postedAt": "2026-06-28T10:00:00.000Z",
+      "startDate": "2026-07-05T10:00:00.000Z",
+      "endDate": "2026-09-03T10:00:00.000Z",
+      "requirementsEssential": ["Interesse ou experiência com agricultura urbana ou jardinagem", "Trabalho ao ar livre"],
+      "requirementsOptional": ["Conhecimento sobre compostagem e rotação de culturas"],
+      "contactName": "Ana Paula Rocha",
+      "contactEmail": "ana@maosqueajudam.org",
+      "contactPhone": "(84) 3333-2222",
+      "status": "open"
+    },
+    {
+      "id": "job-19",
+      "institutionId": "inst-1",
+      "title": "Recreador Infantil de Fim de Semana",
+      "description": "Ajude a planejar e aplicar brincadeiras de rua, jogos cooperativos e contação de histórias para crianças aos sábados no Tirol.",
+      "category": "Educação",
+      "city": "Natal",
+      "neighborhood": "Tirol",
+      "modality": "Presencial",
+      "causes": "Recreação, inclusão social pelo esporte e lazer.",
+      "postedAt": "2026-06-29T10:00:00.000Z",
+      "startDate": "2026-07-04T10:00:00.000Z",
+      "endDate": "2026-08-03T10:00:00.000Z",
+      "requirementsEssential": ["Grande carisma, facilidade com crianças", "Disponibilidade aos sábados pela manhã"],
+      "requirementsOptional": ["Experiência como monitor escolar ou recreador infantil"],
+      "contactName": "Julio Silva",
+      "contactEmail": "aguaviva@email.com",
+      "contactPhone": "(84) 99888-1111",
+      "status": "open"
+    },
+    {
+      "id": "job-20",
+      "institutionId": "inst-5",
+      "title": "Dentista Voluntário para Orientação Oral",
+      "description": "Procuramos profissionais formados em odontologia ou estudantes do último ano para ministrar palestras e atividades de orientação para escovação e cuidados básicos das Rocas.",
+      "category": "Saúde",
+      "city": "Natal",
+      "neighborhood": "Rocas",
+      "modality": "Presencial",
+      "causes": "Higiene bucal infantil, promoção da saúde preventiva nas escolas comunitárias.",
+      "postedAt": "2026-06-27T10:00:00.000Z",
+      "startDate": "2026-07-10T10:00:00.000Z",
+      "endDate": "2026-07-25T10:00:00.000Z",
+      "requirementsEssential": ["CRO ativo ou comprovação de último período da faculdade", "Empatia e didática com crianças"],
+      "requirementsOptional": ["Experiência prévia em eventos de promoção à saúde"],
+      "contactName": "Dr. Marcos Vieira",
+      "contactEmail": "marcos@saudeparatodos.org",
+      "contactPhone": "(84) 3666-7777",
+      "status": "open"
+    }
+  ],
+  "campanhas": [
+    {
+      "id": "camp-6",
+      "organizerId": "user-1",
+      "title": "Natal Sem Fome no Seridó",
+      "description": "Campanha de arrecadação especial para montagem e distribuição de cestas básicas completas para 300 famílias em vulnerabilidade alimentar extrema no sertão do Seridó durante as festas de fim de ano.",
+      "category": "Alimentação",
+      "city": "Caicó",
+      "neighborhood": "Paraíba",
+      "helpTypes": ["Dinheiro", "Alimentos"],
+      "mainNeed": "Cestas básicas alimentares e feijão verde",
+      "financialGoal": 8000,
+      "financialRaised": 3200,
+      "coverImage": "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84999999999",
+      "tags": ["cestas", "alimentação", "sertão"],
+      "status": "active",
+      "createdAt": "2026-06-20T10:00:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z"
+    },
+    {
+      "id": "camp-7",
+      "organizerId": "user-2",
+      "title": "Reflorestamento das Dunas de Genipabu",
+      "description": "Mutirão de conservação e plantio de mudas de espécies nativas nas áreas degradadas das Dunas de Genipabu. Venha fazer a diferença botando a mão na massa ou nos ajudando a obter insumos ecológicos.",
+      "category": "Meio Ambiente",
+      "city": "Extremoz",
+      "neighborhood": "Genipabu",
+      "helpTypes": ["Voluntários", "Materiais"],
+      "mainNeed": "Mudas nativas da caatinga/mata atlântica, ferramentas",
+      "financialGoal": 3000,
+      "financialRaised": 1500,
+      "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84988888888",
+      "tags": ["plantio", "natureza", "dunas"],
+      "status": "active",
+      "createdAt": "2026-06-26T10:00:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z"
+    },
+    {
+      "id": "camp-8",
+      "organizerId": "user-1",
+      "title": "Visão Para a Melhor Idade",
+      "description": "Ação comunitária para financiar consultas com oftalmologistas e exames visuais gratuitos, além da confecção e entrega de óculos de grau sob medida para idosos carentes do Alecrim.",
+      "category": "Saúde",
+      "city": "Natal",
+      "neighborhood": "Alecrim",
+      "helpTypes": ["Dinheiro", "Serviços"],
+      "mainNeed": "Financiamento de armações e lentes oftálmicas",
+      "financialGoal": 10000,
+      "financialRaised": 4500,
+      "coverImage": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84955554444",
+      "tags": ["oftalmologia", "idosos", "óculos"],
+      "status": "active",
+      "createdAt": "2026-06-10T10:00:00.000Z",
+      "updatedAt": "2026-06-27T10:00:00.000Z"
+    },
+    {
+      "id": "camp-9",
+      "organizerId": "user-1",
+      "title": "Inclusão nos Acordes: Música na Escola",
+      "description": "Ajude-nos a equipar a primeira sala de música comunitária da Cohabinal com instrumentos novos e semi-novos. A música ensina disciplina, criatividade e acolhimento para jovens da periferia.",
+      "category": "Cultura",
+      "city": "Parnamirim",
+      "neighborhood": "Cohabinal",
+      "helpTypes": ["Materiais", "Equipamentos", "Dinheiro"],
+      "mainNeed": "Flautas, violões, violinos e baterias eletrônicas",
+      "financialGoal": 5000,
+      "financialRaised": 4800,
+      "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84911112222",
+      "tags": ["música", "instrumentos", "jovens"],
+      "status": "active",
+      "createdAt": "2026-06-24T10:00:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z"
+    },
+    {
+      "id": "camp-10",
+      "organizerId": "user-2",
+      "title": "Agasalhe um Amigo de Quatro Patas",
+      "description": "Arrecadação urgente de cobertores velhos, roupinhas e rações especiais de alta proteína para preparar nosso abrigo de animais para as noites frias de inverno na região metropolitana.",
+      "category": "Animais",
+      "city": "Natal",
+      "neighborhood": "Neópolis",
+      "helpTypes": ["Materiais", "Dinheiro"],
+      "mainNeed": "Caminhas, mantas térmicas e ração filhote",
+      "financialGoal": 2500,
+      "financialRaised": 1200,
+      "coverImage": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84922223333",
+      "tags": ["cães", "gatos", "inverno", "abrigo"],
+      "status": "active",
+      "createdAt": "2026-06-27T10:00:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z"
+    },
+    {
+      "id": "camp-11",
+      "organizerId": "user-1",
+      "title": "Horta Escolar Sustentável",
+      "description": "Construção de uma horta de ervas e hortaliças orgânicas na escola municipal para ensinar sustentabilidade prática às crianças e complementar as merendas com insumos de alta qualidade.",
+      "category": "Educação",
+      "city": "Natal",
+      "neighborhood": "Lagoa Azul",
+      "helpTypes": ["Voluntários", "Materiais"],
+      "mainNeed": "Compostagem, sementes de tomate, alface e coentro",
+      "financialGoal": 1200,
+      "financialRaised": 900,
+      "coverImage": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84933334444",
+      "tags": ["escola", "horta", "orgânico"],
+      "status": "active",
+      "createdAt": "2026-06-23T10:00:00.000Z",
+      "updatedAt": "2026-06-28T10:00:00.000Z"
+    },
+    {
+      "id": "camp-12",
+      "organizerId": "user-2",
+      "title": "Reformando Sorrisos - Apoio a Mães Solo",
+      "description": "Campanha de empoderamento e assistência odontológica e psicológica básica para mães solo da periferia de Macaíba, oferecendo oficinas de capacitação de panificação e palestras.",
+      "category": "Outro",
+      "city": "Macaíba",
+      "neighborhood": "Centro",
+      "helpTypes": ["Serviços", "Materiais"],
+      "mainNeed": "Kits de escovação bucal e insumos de costura",
+      "financialGoal": 3500,
+      "financialRaised": 2800,
+      "coverImage": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84944445555",
+      "tags": ["mães", "apoio", "capacitação"],
+      "status": "active",
+      "createdAt": "2026-06-21T10:00:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z"
+    },
+    {
+      "id": "camp-13",
+      "organizerId": "user-1",
+      "title": "Inclusão Digital para Idosos",
+      "description": "Projeto de inclusão social e segurança digital para a melhor idade. Queremos obter computadores e tablets portáteis para ensinar os vovôs e vovós a usarem os aplicativos do cotidiano com segurança.",
+      "category": "Cultura",
+      "city": "Natal",
+      "neighborhood": "Petrópolis",
+      "helpTypes": ["Equipamentos", "Voluntários"],
+      "mainNeed": "Tablets de 10 polegadas, carregadores portáteis",
+      "financialGoal": 4000,
+      "financialRaised": 2100,
+      "coverImage": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84955556666",
+      "tags": ["idosos", "tecnologia", "celular"],
+      "status": "active",
+      "createdAt": "2026-06-18T10:00:00.000Z",
+      "updatedAt": "2026-06-26T10:00:00.000Z"
+    },
+    {
+      "id": "camp-14",
+      "organizerId": "user-2",
+      "title": "Esporte Comunitário e Cidadania",
+      "description": "Revitalização da quadra de esportes comunitária do bairro Planalto com pintura das marcações, novas redes de vôlei e basquete e distribuição de bolas e uniformes para os times infantis da área.",
+      "category": "Esporte",
+      "city": "Natal",
+      "neighborhood": "Planalto",
+      "helpTypes": ["Equipamentos", "Dinheiro"],
+      "mainNeed": "Redes de quadra, tintas acrílicas, bolas oficiais",
+      "financialGoal": 2000,
+      "financialRaised": 1900,
+      "coverImage": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84966667777",
+      "tags": ["esporte", "quadra", "reforma"],
+      "status": "active",
+      "createdAt": "2026-06-19T10:00:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z"
+    },
+    {
+      "id": "camp-15",
+      "organizerId": "user-1",
+      "title": "Primeiros Passos - Enxoval Solidário",
+      "description": "Confecção e entrega de kits de enxoval de maternidade com roupas, banheiras e fraldas descartáveis para gestantes carentes atendidas nas maternidades públicas da Zona Norte de Natal.",
+      "category": "Saúde",
+      "city": "Natal",
+      "neighborhood": "Nossa Senhora da Apresentação",
+      "helpTypes": ["Materiais", "Dinheiro"],
+      "mainNeed": "Fraldas RN/P, sabonetes neutros, mantas de algodão",
+      "financialGoal": 6000,
+      "financialRaised": 3100,
+      "coverImage": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800",
+      "gallery": [],
+      "contact": "84977778888",
+      "tags": ["maternidade", "enxoval", "bebês"],
+      "status": "active",
+      "createdAt": "2026-06-16T10:00:00.000Z",
+      "updatedAt": "2026-06-28T10:00:00.000Z"
+    }
+  ]
+}

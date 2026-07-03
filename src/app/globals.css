@@ -1,0 +1,203 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700,900&f[]=satoshi@900,700,500,300,400&display=swap');
+@import "tailwindcss";
+
+:root, .theme-warm {
+  --background: #fdfdfd;
+  --foreground: #000000;
+  
+  --primary: #ffe17c;
+  --primary-foreground: #000000;
+  
+  --secondary: #ff90e8; /* Playful pink for contrast */
+  --secondary-foreground: #000000;
+
+  --accent: #23a094; /* Cyan/Teal for other accents */
+  --accent-foreground: #ffffff;
+
+  --destructive: #ff3333;
+  --destructive-foreground: #ffffff;
+
+  --border: #000000;
+  --input: #ffffff;
+  --ring: #000000;
+  
+  --radius: 0px; /* Neo-brutalism usually has hard edges or very specific roundness. Let's use hard edges or 8px. Let's go with 4px */
+  --radius-brutalist: 4px;
+}
+
+.theme-cold {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  
+  --primary: #93c5fd; /* Soft Blue */
+  --primary-foreground: #0f172a;
+  
+  --secondary: #a7f3d0; /* Soft Green/Mint */
+  --secondary-foreground: #0f172a;
+
+  --accent: #818cf8; /* Indigo */
+  --accent-foreground: #ffffff;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #0f172a;
+  --input: #ffffff;
+  --ring: #0f172a;
+  
+  --radius: 0px;
+  --radius-brutalist: 4px;
+}
+
+.theme-colorblind {
+  --background: #ffffff;
+  --foreground: #000000;
+  
+  --primary: #3b82f6; /* Accessible blue */
+  --primary-foreground: #ffffff;
+  
+  --secondary: #f59e0b; /* Accessible amber */
+  --secondary-foreground: #000000;
+
+  --accent: #000000; /* Pure black for maximum contrast */
+  --accent-foreground: #ffffff;
+
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+
+  --border: #000000;
+  --input: #ffffff;
+  --ring: #000000;
+  
+  --radius: 0px;
+  --radius-brutalist: 4px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: 'Satoshi', sans-serif;
+  --font-display: 'Cabinet Grotesk', sans-serif;
+
+  --shadow-brutalist: 4px 4px 0px 0px rgba(0,0,0,1);
+  --shadow-brutalist-lg: 8px 8px 0px 0px rgba(0,0,0,1);
+  --shadow-brutalist-sm: 2px 2px 0px 0px rgba(0,0,0,1);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base utility for brutalist elements */
+@layer utilities {
+  .brutalist-border {
+    border: 2px solid var(--border);
+  }
+  
+  .brutalist-card {
+    background-color: #ffffff;
+    border: 2px solid var(--border);
+    box-shadow: var(--shadow-brutalist);
+    border-radius: var(--radius-brutalist);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .brutalist-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutalist-lg);
+  }
+
+  .brutalist-button {
+    border: 2px solid var(--border);
+    box-shadow: var(--shadow-brutalist);
+    border-radius: var(--radius-brutalist);
+    font-weight: 700;
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+  
+  .brutalist-button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+  }
+}
+
+/* Estilos globais para impressao e enquadramento de certificado em A4 Paisagem */
+@media print {
+  header, footer, nav, aside, .print-hidden, [class*="print-hidden"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+  }
+
+  html, body, main, #__next, .min-h-screen, .max-w-4xl {
+    height: 210mm !important;
+    width: 297mm !important;
+    max-width: 297mm !important;
+    max-height: 210mm !important;
+    min-height: 210mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    overflow: hidden !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+  }
+
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+
+  .print-certificate-card {
+    width: 297mm !important;
+    height: 210mm !important;
+    margin: 0 !important;
+    padding: 12mm !important;
+    box-sizing: border-box !important;
+    border: 8px solid black !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    background: white !important;
+    page-break-inside: avoid !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    z-index: 99999 !important;
+  }
+
+  .print-certificate-content {
+    border: 4px dashed #cbd5e1 !important;
+    padding: 10mm 15mm !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+    min-height: auto !important;
+  }
+}
+
