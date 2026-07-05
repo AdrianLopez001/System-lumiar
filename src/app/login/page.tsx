@@ -20,6 +20,7 @@ import {
 
 /* ─── Demo users (fallback offline) ─── */
 const demoUsers = [
+  { id: "admin-1", profileType: "admin" as const, role: "admin", name: "Armazém da Caridade (Gestor)", email: "admin@armazem.org", password: "admin123" },
   { id: "vol-1", profileType: "volunteer" as const, role: "volunteer", name: "Ana Beatriz", email: "ana.beatriz@email.com", password: "demo123" },
   { id: "vol-2", profileType: "volunteer" as const, role: "volunteer", name: "Lucas Mendes", email: "lucas.mendes@email.com", password: "demo123" },
   { id: "inst-1", profileType: "institution" as const, role: "institution", name: "Instituto Água Viva", email: "contato@aguaviva.org", password: "demo123" },
@@ -191,27 +192,37 @@ function AuthForm() {
     setError(""); setSuccess(""); setLoading(true);
     try {
       if (isSupabaseConfigured && supabase) {
-        const { data, error: err } = await supabase.auth.signInWithPassword({ email: loginEmail, password: loginPassword });
-        if (err) throw err;
-        if (data.user) {
-          const profile = await getProfile(data.user.id);
-          if (!profile) {
-            setUserId(data.user.id);
-            setSignupName(data.user.email?.split("@")[0] || "");
-            setSignupEmail(data.user.email || "");
-            setStep("profile");
-            setLoading(false);
-            return;
+        try {
+          const { data, error: err } = await supabase.auth.signInWithPassword({ email: loginEmail, password: loginPassword });
+          if (err) throw err;
+          if (data.user) {
+            const profile = await getProfile(data.user.id);
+            if (!profile) {
+              setUserId(data.user.id);
+              setSignupName(data.user.email?.split("@")[0] || "");
+              setSignupEmail(data.user.email || "");
+              setStep("profile");
+              setLoading(false);
+              return;
+            }
+            saveStoredProfile({
+              id: profile.id,
+              profileType: profile.profileType as any,
+              role: profile.profileType as any,
+              name: profile.name,
+              email: profile.email,
+              avatarUrl: profile.avatarUrl,
+              approvalStatus: (profile as any).approvalStatus,
+            });
           }
-          saveStoredProfile({
-            id: profile.id,
-            profileType: profile.profileType as any,
-            role: profile.profileType as any,
-            name: profile.name,
-            email: profile.email,
-            avatarUrl: profile.avatarUrl,
-            approvalStatus: (profile as any).approvalStatus,
-          });
+        } catch (supabaseErr) {
+          // Tenta o fallback para os usuários de demonstração local
+          const found = demoUsers.find(u => u.email.toLowerCase() === loginEmail.trim().toLowerCase() && u.password === loginPassword);
+          if (found) {
+            saveStoredProfile({ id: found.id, profileType: found.profileType as any, role: found.role as any, name: found.name, email: found.email });
+          } else {
+            throw supabaseErr;
+          }
         }
       } else {
         const found = demoUsers.find(u => u.email.toLowerCase() === loginEmail.trim().toLowerCase() && u.password === loginPassword);

@@ -4,13 +4,14 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { getCurrentProfile, signOut, StoredProfile } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Bell, LayoutDashboard, User, LogOut, Briefcase, Newspaper, Compass, Plus, Shield, Settings } from "lucide-react";
+import { Menu, X, Bell, LayoutDashboard, User, LogOut, Briefcase, Newspaper, Compass, Plus, Shield, Settings, Lightbulb } from "lucide-react";
 
 export function NavBar() {
   const [profile, setProfile] = useState<StoredProfile | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [theme, setTheme] = useState<"warm" | "cold" | "colorblind">("warm");
+  const [themeDropdownOpen, setThemeDropdownOpen] = useState(false);
 
   useEffect(() => {
     getCurrentProfile().then((p) => {
@@ -84,29 +85,41 @@ export function NavBar() {
 
         {/* THEME SWITCHER & DESKTOP AUTH */}
         <div className="hidden md:flex items-center gap-4">
-          {/* THEME PICKER */}
-          <div className="flex items-center gap-1 border-2 border-black p-1 bg-white shadow-[2px_2px_0px_0px_#000000]">
+          {/* THEME PICKER (DROPDOWN COMPACTO COM LÂMPADA) */}
+          <div className="relative">
             <button 
-              onClick={() => changeTheme("warm")}
-              className={`px-2 py-1 text-xs font-black uppercase transition-colors ${theme === "warm" ? "bg-primary text-black animate-pulse" : "hover:bg-gray-100 text-gray-500"}`}
-              title="Esquema Quente"
+              onClick={() => setThemeDropdownOpen(!themeDropdownOpen)}
+              className="w-10 h-10 border-2 border-black bg-white flex items-center justify-center shadow-[2px_2px_0px_0px_#000000] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] active:translate-y-0.5 transition-all text-black"
+              title="Modo de Cores do Sistema"
             >
-              Quente
+              <Lightbulb className={`w-5 h-5 ${theme === "warm" ? "fill-primary text-black" : theme === "cold" ? "fill-sky-200 text-black" : "text-black"}`} />
             </button>
-            <button 
-              onClick={() => changeTheme("cold")}
-              className={`px-2 py-1 text-xs font-black uppercase transition-colors ${theme === "cold" ? "bg-[#93c5fd] text-black" : "hover:bg-gray-100 text-gray-500"}`}
-              title="Esquema Frio"
-            >
-              Frio
-            </button>
-            <button 
-              onClick={() => changeTheme("colorblind")}
-              className={`px-2 py-1 text-xs font-black uppercase transition-colors ${theme === "colorblind" ? "bg-black text-white" : "hover:bg-gray-100 text-gray-500"}`}
-              title="Acessível / Contraste"
-            >
-              Daltonismo
-            </button>
+            
+            {themeDropdownOpen && (
+              <div className="absolute right-0 top-12 z-50 w-44 border-2 border-black bg-white p-1.5 shadow-[4px_4px_0px_0px_#000000] flex flex-col gap-1">
+                <div className="text-[10px] font-black uppercase text-gray-400 px-2 py-1 border-b border-gray-100 mb-1 select-none">
+                  Modo do Sistema
+                </div>
+                <button 
+                  onClick={() => { changeTheme("warm"); setThemeDropdownOpen(false); }}
+                  className={`w-full text-left px-2 py-1.5 text-xs font-black uppercase transition-colors flex items-center justify-between border-2 border-transparent ${theme === "warm" ? "bg-primary text-black border-black" : "hover:bg-gray-100 text-gray-700"}`}
+                >
+                  Quente {theme === "warm" && "✓"}
+                </button>
+                <button 
+                  onClick={() => { changeTheme("cold"); setThemeDropdownOpen(false); }}
+                  className={`w-full text-left px-2 py-1.5 text-xs font-black uppercase transition-colors flex items-center justify-between border-2 border-transparent ${theme === "cold" ? "bg-[#93c5fd] text-black border-black" : "hover:bg-gray-100 text-gray-700"}`}
+                >
+                  Frio {theme === "cold" && "✓"}
+                </button>
+                <button 
+                  onClick={() => { changeTheme("colorblind"); setThemeDropdownOpen(false); }}
+                  className={`w-full text-left px-2 py-1.5 text-xs font-black uppercase transition-colors flex items-center justify-between border-2 border-transparent ${theme === "colorblind" ? "bg-black text-white border-black" : "hover:bg-gray-100 text-gray-700"}`}
+                >
+                  Daltonismo {theme === "colorblind" && "✓"}
+                </button>
+              </div>
+            )}
           </div>
 
           {loading ? (

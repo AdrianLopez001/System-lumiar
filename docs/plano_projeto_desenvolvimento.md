@@ -37,6 +37,35 @@ Este documento define a dinâmica de trabalho, a viabilidade financeira e o plan
 * **Equipe Alocada**: 3 desenvolvedores especialistas dedicados.
 * **Entregas Quinzenais (Sprints)**: Versão funcional atualizada a cada 2 semanas (15 dias) em ambiente de testes para homologação e validação da diretoria, eliminando riscos de desalinhamento de expectativas.
 
+### 3.1. Governança e Diretrizes de Liderança do Projeto
+
+Para garantir o sucesso operacional e mitigar riscos, o líder do projeto adotará as seguintes diretrizes de gestão técnica e financeira:
+
+#### A. Gestão de Fluxo de Caixa (Como receber e gerir o valor)
+* **Fluxo de Recebimento do Cliente**: O valor de R$ 55.000,00 será faturado em 5 parcelas de R$ 11.000,00 vinculadas ao cumprimento das metas do cronograma financeiro.
+* **Pagamento sob Demanda e Entrega (Não pagar tudo antecipado)**:
+  * **Critério de Necessidade**: Distribua os repasses para os desenvolvedores em parcelas atreladas às entregas aprovadas de cada Sprint quinzenal.
+  * Evite pagamentos adiantados significativos. Libere apenas uma taxa de início de trabalho (ex: 15% a 20%) e vincule o saldo restante de cada mês à validação e merge do código funcional na branch principal do projeto.
+* **Fundo de Retenção de Garantia (Contingência)**:
+  * O líder do projeto deve reservar de 10% a 15% do valor total repassado em cada etapa para formar um fundo de contingência operacional.
+  * Esse valor retido é uma garantia técnica e será distribuído à equipe de desenvolvimento somente 15 dias após o lançamento bem-sucedido em ambiente de produção (Mês 4) sem bugs impeditivos ativos.
+
+#### B. Como Agir como Líder de Projeto (Planos de Ação)
+* **Proteção de Escopo**: O líder do projeto deve agir como barreira contra o *scope creep* (solicitações informais do cliente de adicionar novos recursos sem recalcular o orçamento). Solicitações adicionais devem entrar em uma lista de melhorias pós-lançamento ou serem orçadas separadamente como horas extras.
+* **Ritos e Ritmo de Trabalho**:
+  * **Daily Scrum Rápida**: Chamadas curtas diárias de 15 minutos para debater impedimentos e manter o progresso do time alinhado.
+  * **Revisão de Código e Padrões**: Garantir que as entregas de cada Sprint do time técnico passem por testes de compilação locais para evitar furos no código.
+  * **Apresentação Comercial Quinzenal**: O líder é o ponto focal que traduz a parte técnica para linguagem comercial nas demonstrações com a diretoria do Armazém a cada 15 dias, assegurando o alinhamento de expectativas.
+
+#### C. Aspectos Fiscais e Forma de Recebimento
+* **Uso de CNPJ e Emissão de Notas Fiscais**:
+  * Por ser uma instituição do terceiro setor (ONG/OSC), o Armazém da Caridade exige rastreabilidade contábil estrita para prestar contas a órgãos governamentais e conselhos fiscais.
+  * O recebimento de cada marco financeiro de R$ 11.000,00 deve ser respaldado pela emissão de uma **Nota Fiscal de Serviços Eletrônica (NFS-e)**. O líder deve utilizar um CNPJ (MEI ou Microempresa) sob atividade (CNAE) de desenvolvimento de software ou gestão de tecnologia.
+* **Forma de Transferência**:
+  * Os pagamentos devem ser efetuados via **Pix (Chave CNPJ)** ou **TED/Transferência Bancária** diretamente da conta institucional do Armazém da Caridade (CNPJ) para a conta PJ da empresa do líder.
+  * Devem ser evitadas transferências para contas de pessoas físicas (CPF), pois isso gera problemas fiscais para o Armazém e atrai riscos de bitributação ou questionamento pela Receita Federal.
+* **Resguardo por Contrato**: Toda a dinâmica de repasses deve estar formalizada em um Contrato de Prestação de Serviços assinado digitalmente, vinculando a liberação de cada Nota Fiscal à ata de homologação da entrega da Sprint correspondente.
+
 ---
 
 ## 💰 4. Plano de Investimento Estruturado

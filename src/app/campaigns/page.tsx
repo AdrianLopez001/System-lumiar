@@ -8,7 +8,7 @@ export default async function CampaignsPage() {
   const campaigns = await getCampaigns();
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 lg:py-16 text-black">
+    <div className="max-w-7xl mx-auto px-4 pt-20 pb-12 lg:pt-24 lg:pb-16 text-black">
       <div className="mb-12 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <Badge className="mb-4 bg-accent text-white border-2 border-black">Rio Grande do Norte</Badge>
