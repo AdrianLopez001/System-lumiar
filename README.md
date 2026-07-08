@@ -45,9 +45,10 @@ Esta versão contém correções para diversos gargalos de segurança e integrid
 
 1. **Clonar e acessar o repositório**
    ```bash
-   git clone https://github.com/gabrielfeliix/projeto-beneficente.git
-   cd projeto-beneficente
+   git clone https://github.com/AdrianLopez001/System-lumiar.git
+   cd System-lumiar
    ```
+
 
 2. **Instalar as dependências**
    ```bash
